@@ -2,10 +2,10 @@ function calculateGrade() {
     const marksInput = document.getElementById('marksInput');
     const gradeOutput = document.getElementById('gradeOutput');
   
-    // Parse the input value as a number
+    // mark the input value as a number
     const marks = Number(marksInput.value);
   
-    // Check the range of marks and assign the grade
+    // Checking the range of marks and assigning the grade:-
     let grade;
     if (marks >= 80) {
       grade = 'A';
